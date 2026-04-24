@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-24T00:00:00Z",
+  "providers": {
+    "anthropic": {
+      "models": [
+        {
+          "id": "claude-opus-4-7",
+          "label": "Claude Opus 4.7",
+          "description": "Flagship. Most capable Claude. 1M context. Step-change in agentic coding.",
+          "recommended": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 1000000
+          }
+        },
+        {
+          "id": "claude-sonnet-4-6",
+          "label": "Claude Sonnet 4.6",
+          "description": "Balanced daily driver. Fast, cheap, 1M context.",
+          "recommended": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 1000000
+          }
+        },
+        {
+          "id": "claude-haiku-4-5",
+          "label": "Claude Haiku 4.5",
+          "description": "Fastest, cheapest. Great for quick rewrites. 64k output, 200k context.",
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 200000
+          }
+        },
+        {
+          "id": "claude-opus-4-6",
+          "label": "Claude Opus 4.6",
+          "description": "Previous flagship Opus.",
+          "deprecated": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 1000000
+          }
+        },
+        {
+          "id": "claude-sonnet-4-5-20250929",
+          "label": "Claude Sonnet 4.5",
+          "description": "Previous Sonnet.",
+          "deprecated": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 200000
+          }
+        },
+        {
+          "id": "claude-opus-4-5-20251101",
+          "label": "Claude Opus 4.5",
+          "description": "Older Opus release.",
+          "deprecated": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 200000
+          }
+        },
+        {
+          "id": "claude-opus-4-1-20250805",
+          "label": "Claude Opus 4.1",
+          "description": "Older Opus release.",
+          "deprecated": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 200000
+          }
+        },
+        {
+          "id": "claude-sonnet-4-20250514",
+          "label": "Claude Sonnet 4",
+          "description": "Retiring June 2026 — please migrate to Sonnet 4.6.",
+          "deprecated": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 200000
+          }
+        },
+        {
+          "id": "claude-opus-4-20250514",
+          "label": "Claude Opus 4",
+          "description": "Retiring June 2026 — please migrate to Opus 4.7.",
+          "deprecated": true,
+          "capabilities": {
+            "extendedThinking": true,
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 200000
+          }
+        }
+      ]
+    },
+    "openai": {
+      "models": [
+        {
+          "id": "gpt-5.5",
+          "label": "GPT-5.5",
+          "description": "Frontier. First fully retrained base model since GPT-4.5. 1M context. Paid ChatGPT plan.",
+          "recommended": true,
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 1000000
+          }
+        },
+        {
+          "id": "gpt-5.5-pro",
+          "label": "GPT-5.5 Pro",
+          "description": "Premium tier of 5.5. Highest accuracy, slower, more expensive. Paid ChatGPT plan.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 1000000
+          }
+        },
+        {
+          "id": "gpt-5.4",
+          "label": "GPT-5.4",
+          "description": "Frontier. Native computer-use + strong coding. Paid ChatGPT plan.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "gpt-5.4-mini",
+          "label": "GPT-5.4 Mini",
+          "description": "Faster, cheaper 5.4 for subagents and lighter tasks.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "gpt-5.3-codex",
+          "label": "GPT-5.3 Codex",
+          "description": "Agentic coding specialist. Paid ChatGPT plan.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "gpt-5.2-codex",
+          "label": "GPT-5.2 Codex",
+          "description": "Previous coding specialist. Paid ChatGPT plan.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "gpt-5.2",
+          "label": "GPT-5.2",
+          "description": "General-purpose 5.2. Paid ChatGPT plan.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "gpt-5.1-codex",
+          "label": "GPT-5.1 Codex",
+          "description": "Safe default. Works on every plan.",
+          "recommended": true,
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 272000
+          }
+        },
+        {
+          "id": "gpt-5.1",
+          "label": "GPT-5.1",
+          "description": "General-purpose. Good for writing.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "vision": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "gpt-5-codex",
+          "label": "GPT-5 Codex",
+          "description": "Previous-generation Codex coding model.",
+          "deprecated": true,
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "contextWindow": 272000
+          }
+        },
+        {
+          "id": "gpt-5",
+          "label": "GPT-5",
+          "description": "Previous-generation general model.",
+          "deprecated": true,
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "contextWindow": 400000
+          }
+        },
+        {
+          "id": "o3",
+          "label": "o3",
+          "description": "Dedicated reasoning model. Thinks longer, answers less often.",
+          "capabilities": {
+            "reasoning": true,
+            "reasoningEfforts": ["low", "medium", "high"],
+            "toolUse": true,
+            "contextWindow": 200000
+          }
+        }
+      ]
+    }
+  }
+}
