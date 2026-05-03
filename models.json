@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-03T00:00:00Z",
-  "_about": "Shared model catalog. Provider keys are vendor-neutral (anthropic / openai / google) so the same JSON powers any app. Each consumer maps these to its internal provider ids (Eidos: anthropic→claude, openai→codex, google→gemini).",
+  "updatedAt": "2026-04-24T00:00:00Z",
+  "_about": "Shared model catalog. Provider keys are vendor-neutral (anthropic / openai) so the same JSON powers any app. Each consumer maps these to its internal provider ids (Eidos: anthropic→claude, openai→codex).",
   "providers": {
     "anthropic": {
       "models": [
@@ -259,52 +259,6 @@
             "reasoningEfforts": ["low", "medium", "high"],
             "toolUse": true,
             "contextWindow": 200000
-          }
-        }
-      ]
-    },
-    "google": {
-      "models": [
-        {
-          "id": "gemini-2.5-pro",
-          "label": "Gemini 2.5 Pro",
-          "description": "Default. Strong reasoning + 1M context. Works on free Google accounts via Code Assist.",
-          "recommended": true,
-          "capabilities": {
-            "toolUse": true,
-            "vision": true,
-            "contextWindow": 1000000
-          }
-        },
-        {
-          "id": "gemini-3-pro-preview",
-          "label": "Gemini 3 Pro (preview)",
-          "description": "Preview frontier model. Requires preview features enabled in your Google account.",
-          "capabilities": {
-            "toolUse": true,
-            "vision": true,
-            "contextWindow": 1000000
-          }
-        },
-        {
-          "id": "gemini-2.5-flash",
-          "label": "Gemini 2.5 Flash",
-          "description": "Fast, balanced daily driver. 1M context.",
-          "recommended": true,
-          "capabilities": {
-            "toolUse": true,
-            "vision": true,
-            "contextWindow": 1000000
-          }
-        },
-        {
-          "id": "gemini-2.5-flash-lite",
-          "label": "Gemini 2.5 Flash Lite",
-          "description": "Fastest, cheapest. Great for quick rewrites and short replies.",
-          "capabilities": {
-            "toolUse": true,
-            "vision": true,
-            "contextWindow": 1000000
           }
         }
       ]
